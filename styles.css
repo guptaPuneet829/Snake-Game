@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,600&family=Lugrasimo&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background:linear-gradient(to left top,red,green);
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Lugrasimo', cursive;
+    margin-bottom: 20px;
+}
+.reloadBtn{
+    margin-top:30px;
+    width: 150px;
+    height: 70px;
+    border-radius: 20%;
+    border-bottom:3px double rgb(6, 104, 44);
+    border-top:3px double rgb(214, 62, 35);
+    background: transparent;
+    font-family: cursive;
+    font-weight: 900;
+    font-size: 40px;
+}
+.reloadBtn:hover{
+    background-color: rgba(96, 173, 45, 0.322);
+}
+.score{
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.gamebox{
+    width: 700px;
+    height: 700px;
+    background-color: black;
+    border-radius:5%;
+    border: 5px solid rgb(52, 53, 52); 
+    display: flex;
+    flex-wrap: wrap;
+}
+.gamebox div{
+    width: 70px;
+    height: 70px;
+    border-radius: 30%;
+}
+.snake{
+    background-color: green;
+}
+.candy{
+    background-color: red;
+}
